@@ -1,5 +1,5 @@
 {
-    "spider": "https://gitdl.cn/raw.githubusercontent.com/PizazzGY/TVBox_warehouse/main/spider.jar;md5;3843f962622e1fa261e6cd26ebbe2807",
+    "spider": "https://github.ednovas.xyz/https://raw.githubusercontent.com/PizazzGY/TVBox_warehouse/main/spider.jar;md5;5373bfbbb0b009366ffcc5cf6b4ead5d",
     "wallpaper": "https://api.likepoems.com/img/bing",
     "sites": [
         {
@@ -20,12 +20,11 @@
             "style": {
                 "type": "rect",
                 "ratio": 1.597
-            },
-            "jar": "https://gitdl.cn/raw.githubusercontent.com/PizazzGY/TVBox_warehouse/main/danmu.jar;md5;ef899b3f9babf606e653cb735a70cfac"
+            }
         },
         {
             "key": "荐片弹幕",
-            "name": "弹幕｜荐片",
+            "name": "荐片｜弹幕",
             "type": 3,
             "api": "csp_Jianpian",
             "playerType": 1,
@@ -34,48 +33,34 @@
             "filterable": 1,
             "ext": {
                 "danmu": true
-            },
-            "jar": "https://gitdl.cn/raw.githubusercontent.com/PizazzGY/TVBox_warehouse/main/danmu.jar;md5;ef899b3f9babf606e653cb735a70cfac"
+            }
         },
         {
             "key": "哔嘀弹幕",
-            "name": "弹幕｜哔嘀",
+            "name": "哔嘀｜弹幕",
             "type": 3,
             "api": "csp_Bdys",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
             "ext": {
+                "site": "https://www.yjys05.com",
                 "danmu": true
-            },
-            "jar": "https://gitdl.cn/raw.githubusercontent.com/PizazzGY/TVBox_warehouse/main/danmu.jar;md5;ef899b3f9babf606e653cb735a70cfac"
-        },
-        {
-            "key": "不太灵弹幕",
-            "name": "弹幕｜不太灵",
-            "type": 3,
-            "api": "csp_Bt0",
-            "searchable": 1,
-            "changeable": 1,
-            "ext": {
-                "danmu": true
-            },
-            "jar": "https://gitdl.cn/raw.githubusercontent.com/PizazzGY/TVBox_warehouse/main/danmu.jar;md5;ef899b3f9babf606e653cb735a70cfac"
+            }
         },
         {
             "key": "荐片",
-            "name": "磁力｜荐片",
+            "name": "荐片｜磁力",
             "type": 3,
-            "api": "csp_JianPian",
+            "api": "csp_Jianpian",
             "playerType": 1,
             "searchable": 1,
             "quickSearch": 1,
-            "filterable": 1,
-            "ext": "http://api2.rinhome.com"
+            "filterable": 1
         },
         {
             "key": "New6v",
-            "name": "磁力｜New6V",
+            "name": "New6V｜磁力",
             "type": 3,
             "api": "csp_New6v",
             "searchable": 1,
@@ -85,7 +70,7 @@
         },
         {
             "key": "SeedHub",
-            "name": "磁力｜SeedHub",
+            "name": "SeedHub｜磁力",
             "type": 3,
             "api": "csp_SeedHub",
             "searchable": 1,
@@ -94,7 +79,7 @@
         },
         {
             "key": "音范丝",
-            "name": "磁力｜音范丝",
+            "name": "音范丝｜磁力",
             "type": 3,
             "api": "csp_XPath",
             "searchable": 1,
@@ -104,14 +89,14 @@
         },
         {
             "key": "磁力熊",
-            "name": "磁力｜磁力熊",
+            "name": "磁力熊｜磁力",
             "type": 3,
             "api": "./JS/drpy2.min.js",
             "ext": "./JS/磁力熊.js"
         },
         {
             "key": "美剧迷",
-            "name": "磁力｜美剧迷",
+            "name": "美剧迷｜磁力",
             "type": 3,
             "api": "csp_MeijuMi",
             "searchable": 1,
@@ -120,7 +105,7 @@
         },
         {
             "key": "迅雷吧",
-            "name": "磁力｜迅雷吧",
+            "name": "迅雷吧｜磁力",
             "type": 3,
             "api": "csp_Xunlei8",
             "searchable": 1,
@@ -129,7 +114,7 @@
         },
         {
             "key": "电影港",
-            "name": "磁力｜电影港",
+            "name": "电影港｜磁力",
             "type": 3,
             "api": "csp_XYQHiker",
             "searchable": 1,
@@ -138,18 +123,8 @@
             "ext": "./XYQHiker/电影港.json"
         },
         {
-            "key": "好恐怖",
-            "name": "磁力｜好恐怖",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "./XBPQ/好恐怖.json"
-        },
-        {
             "key": "小白网",
-            "name": "磁力｜小白网",
+            "name": "小白网｜磁力",
             "type": 3,
             "api": "csp_XBPQ",
             "playerType": 1,
@@ -160,7 +135,7 @@
         },
         {
             "key": "布谷TV",
-            "name": "磁力｜布谷TV",
+            "name": "布谷TV｜磁力",
             "type": 3,
             "api": "csp_XBPQ",
             "searchable": 1,
@@ -170,7 +145,7 @@
         },
         {
             "key": "BT天堂",
-            "name": "磁力｜BT天堂",
+            "name": "BT天堂｜磁力",
             "type": 3,
             "api": "csp_XYQHiker",
             "searchable": 1,
@@ -180,7 +155,7 @@
         },
         {
             "key": "Mp4电影",
-            "name": "磁力｜Mp4电影",
+            "name": "Mp4电影｜磁力",
             "type": 3,
             "api": "csp_Mp4Mov",
             "searchable": 1,
@@ -189,7 +164,7 @@
         },
         {
             "key": "高清MP4",
-            "name": "磁力｜高清MP4",
+            "name": "高清MP4｜磁力",
             "type": 3,
             "api": "csp_XYQHiker",
             "searchable": 1,
@@ -199,7 +174,7 @@
         },
         {
             "key": "哔嘀影视",
-            "name": "磁力｜哔嘀影视",
+            "name": "哔嘀影视｜磁力",
             "type": 3,
             "api": "csp_XYQHiker",
             "searchable": 1,
@@ -209,7 +184,7 @@
         },
         {
             "key": "酷吧电影",
-            "name": "磁力｜酷吧电影",
+            "name": "酷吧电影｜磁力",
             "type": 3,
             "api": "csp_KubaCL",
             "searchable": 1,
@@ -218,7 +193,7 @@
         },
         {
             "key": "美剧天堂",
-            "name": "磁力｜美剧天堂",
+            "name": "美剧天堂｜磁力",
             "type": 3,
             "api": "csp_MeijuTT",
             "searchable": 1,
@@ -227,7 +202,7 @@
         },
         {
             "key": "push_agent",
-            "name": "推送",
+            "name": "手机｜推送",
             "type": 3,
             "api": "csp_Push",
             "searchable": 0,
@@ -236,9 +211,10 @@
             "ext": {
                 "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
                 "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
-                "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt"
+                "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
+                "danmu": true
             },
-            "jar": "https://gitdl.cn/raw.githubusercontent.com/PizazzGY/TVBox_warehouse/main/danmu.jar;md5;ef899b3f9babf606e653cb735a70cfac"
+            "jar": "https://github.ednovas.xyz/https://raw.githubusercontent.com/PizazzGY/TVBox_warehouse/main/danmu.jar;md5;ed6d20f8cf64d14f1efc46caa3c0f474"
         }
     ],
     "rules": [
@@ -315,11 +291,23 @@
     ],
     "lives": [
         {
-            "name": "live",
+            "name": "直播1",
             "type": 0,
-            "url": "https://gitdl.cn/raw.githubusercontent.com/PizazzGY/TVBox_warehouse/main/live.txt",
+            "url": "https://github.ednovas.xyz/https://raw.githubusercontent.com/PizazzGY/TVBox_warehouse/main/live.txt",
             "playerType": 1,
-            "epg": "http://epg.112114.eu.org/?ch={name}&date={date}"
+            "epg": "http://epg.112114.xyz/?ch={name}&date={date}"
+        },
+        {
+            "name": "直播2",
+            "type": 0,
+            "url": "https://live.fanmingming.com/tv/m3u/ipv6.m3u",
+            "playerType": 1
+        },
+        {
+            "name": "直播3",
+            "type": 0,
+            "url": "https://tv.iill.top/m3u/Gather",
+            "playerType": 1
         }
     ],
     "ijk": [

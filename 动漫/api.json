@@ -1,146 +1,129 @@
 {
-    "spider": "https://gitdl.cn/raw.githubusercontent.com/PizazzGY/TVBox_warehouse/main/spider.jar;md5;3843f962622e1fa261e6cd26ebbe2807",
+    "spider": "https://github.ednovas.xyz/https://raw.githubusercontent.com/PizazzGY/TVBox_warehouse/main/spider.jar;md5;5373bfbbb0b009366ffcc5cf6b4ead5d",
     "wallpaper": "https://api.likepoems.com/img/bing",
     "sites": [
         {
+            "key": "56动漫",
+            "name": "56｜动漫",
+            "type": 3,
+            "api": "./JS/drpy2.min.js",
+            "ext": "./JS/56动漫.js"
+        },
+        {
             "key": "58动漫",
-            "name": "58动漫",
+            "name": "58｜动漫",
             "type": 3,
             "api": "./JS/drpy2.min.js",
             "ext": "./JS/58动漫.js"
         },
         {
-            "key": "Anime1",
-            "name": "Anime1",
-            "type": 3,
-            "api": "./JS/drpy2.min.js",
-            "ext": "./JS/Anime1.js"
-        },
-        {
             "key": "NT动漫",
-            "name": "NT动漫",
+            "name": "NT｜动漫",
             "type": 3,
             "api": "./JS/drpy2.min.js",
             "ext": "./JS/NT动漫.js"
         },
         {
+            "key": "Anime1",
+            "name": "Anime1｜动漫",
+            "type": 3,
+            "api": "./JS/drpy2.min.js",
+            "ext": "./JS/Anime1.js"
+        },
+        {
+            "key": "动画片",
+            "name": "动画片｜动漫",
+            "type": 3,
+            "api": "./JS/drpy2.min.js",
+            "ext": "./JS/动画片大全.js"
+        },
+        {
             "key": "路漫漫",
-            "name": "路漫漫",
+            "name": "路漫漫｜动漫",
             "type": 3,
             "api": "./JS/drpy2.min.js",
             "ext": "./JS/路漫漫.js"
         },
         {
             "key": "动漫岛",
-            "name": "动漫岛",
+            "name": "动漫岛｜动漫",
             "type": 3,
             "api": "./JS/drpy2.min.js",
             "ext": "./JS/动漫岛.js"
         },
         {
             "key": "去看吧",
-            "name": "去看吧",
+            "name": "去看吧｜动漫",
             "type": 3,
             "api": "./JS/drpy2.min.js",
             "ext": "./JS/去看吧.js"
         },
         {
             "key": "爱弹幕",
-            "name": "爱弹幕",
+            "name": "爱弹幕｜动漫",
             "type": 3,
             "api": "./JS/drpy2.min.js",
             "ext": "./JS/爱弹幕.js"
         },
         {
             "key": "异世界",
-            "name": "异世界",
+            "name": "异世界｜动漫",
             "type": 3,
             "api": "./JS/drpy2.min.js",
             "ext": "./JS/异世界.js"
         },
         {
-            "key": "次元城",
-            "name": "次元城",
+            "key": "好看动漫",
+            "name": "好看｜动漫",
             "type": 3,
             "api": "./JS/drpy2.min.js",
-            "ext": "./JS/次元城.js"
-        },
-        {
-            "key": "喵物次元",
-            "name": "喵物次元",
-            "type": 3,
-            "api": "./JS/drpy2.min.js",
-            "ext": "./JS/喵物次元.js"
-        },
-        {
-            "key": "妮可动漫",
-            "name": "妮可动漫",
-            "type": 3,
-            "api": "./JS/drpy2.min.js",
-            "ext": "./JS/妮可动漫.js"
+            "ext": "./JS/好看动漫.js"
         },
         {
             "key": "奇米动漫",
-            "name": "奇米动漫",
+            "name": "奇米｜动漫",
             "type": 3,
             "api": "./JS/drpy2.min.js",
             "ext": "./JS/奇米动漫.js"
         },
         {
             "key": "怡萱动漫",
-            "name": "怡萱动漫",
+            "name": "怡萱｜动漫",
             "type": 3,
             "api": "./JS/drpy2.min.js",
             "ext": "./JS/怡萱动漫.js"
         },
         {
             "key": "花子动漫",
-            "name": "花子动漫",
+            "name": "花子｜动漫",
             "type": 3,
             "api": "./JS/drpy2.min.js",
             "ext": "./JS/花子动漫.js"
         },
         {
-            "key": "驴番动漫",
-            "name": "驴番动漫",
+            "key": "动漫巴士",
+            "name": "巴士｜动漫",
             "type": 3,
             "api": "./JS/drpy2.min.js",
-            "ext": "./JS/驴番动漫.js"
-        },
-        {
-            "key": "动漫巴士",
-            "name": "动漫巴士",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "ext": "./XBPQ/动漫巴士.json"
+            "ext": "./JS/动漫巴士.js"
         },
         {
             "key": "樱花动漫",
-            "name": "樱花动漫",
+            "name": "樱花｜动漫",
             "type": 3,
             "api": "./JS/drpy2.min.js",
             "ext": "./JS/樱花动漫.js"
         },
         {
             "key": "大米动漫",
-            "name": "大米动漫",
+            "name": "大米｜动漫",
             "type": 3,
             "api": "./JS/drpy2.min.js",
             "ext": "./JS/大米动漫.js"
         },
         {
-            "key": "暮暮动漫",
-            "name": "暮暮动漫",
-            "type": 3,
-            "api": "csp_WebMuTeFun",
-            "searchable": 1,
-            "quickSearch": 0,
-            "filterable": 0,
-            "ext": "https://www.mutean.com"
-        },
-        {
             "key": "push_agent",
-            "name": "推送",
+            "name": "手机｜推送",
             "type": 3,
             "api": "csp_Push",
             "searchable": 0,
@@ -149,9 +132,9 @@
             "ext": {
                 "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
                 "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
-                "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt"
-            },
-            "jar": "https://gitdl.cn/raw.githubusercontent.com/PizazzGY/TVBox_warehouse/main/danmu.jar;md5;ef899b3f9babf606e653cb735a70cfac"
+                "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
+                "danmu": true
+            }
         }
     ],
     "parses": [
@@ -161,69 +144,38 @@
             "url": "Demo"
         },
         {
-            "name": "推荐1",
-            "url": "http://jx.li0580.com/home/api?type=ys&uid=2712055&key=ehknxBCFGIKLMUVXZ5&url=",
-            "type": "1",
-            "status": "normal",
-            "type_text": "Type 1",
-            "status_text": "正常"
-        },
-        {
-            "name": "推荐2",
-            "url": "https://ldhz.li0580.com//api/jsonindex.php/?key=7Dtvavu8iDUkd1vRxC&url=",
-            "type": "1",
-            "status": "normal",
-            "type_text": "Type 1",
-            "status_text": "正常"
-        },
-        {
-            "name": "推荐3",
-            "url": "http://110.42.7.182:881/api/?key=c4c3p0YQDnvmdaoVnT&url=",
-            "type": "1",
-            "status": "normal",
-            "type_text": "Type 1",
-            "status_text": "正常"
-        },
-        {
-            "name": "推荐4",
-            "url": "http://122.228.84.103:7777/api/?key=J3RDcpC4cTTSrpyEeD&url=",
-            "type": "1",
-            "status": "normal",
-            "type_text": "Type 1",
-            "status_text": "正常"
-        },
-        {
-            "name": "推荐5",
-            "url": "http://110.40.61.123:7777/api/?key=5r77owG0IxkmKBXli9&url=",
-            "type": "1",
-            "status": "normal",
-            "type_text": "Type 1",
-            "status_text": "正常"
-        },
-        {
-            "name": "推荐6",
-            "url": "http://115.231.220.36:8801/jx/tvbox/zyy.php?url=",
+            "name": "推荐",
             "type": 1,
+            "url": "https://jxjson.icu/neibu.php?url=",
             "ext": {
                 "flag": [
-                    "youku",
                     "qq",
+                    "腾讯",
                     "qiyi",
-                    "bilibili",
+                    "爱奇艺",
+                    "奇艺",
+                    "youku",
+                    "优酷",
+                    "sohu",
+                    "搜狐",
+                    "letv",
+                    "乐视",
                     "mgtv",
-                    "pptv",
-                    "xigua",
-                    "xiguatv",
-                    "mytv",
-                    "dsj",
-                    "FYNB",
-                    "NBY",
-                    "BTJSON"
+                    "芒果",
+                    "tnmb",
+                    "seven",
+                    "bilibili",
+                    "1905"
                 ],
                 "header": {
-                    "User-Agent": "Dalvik/2.1.0"
+                    "User-Agent": "okhttp/4.9.1"
                 }
             }
+        },
+        {
+            "name": "推荐4K",
+            "type": 1,
+            "url": "http://jx.jwl.icu/jx.php?url="
         },
         {
             "name": "线路1",
@@ -414,11 +366,23 @@
     ],
     "lives": [
         {
-            "name": "live",
+            "name": "直播1",
             "type": 0,
-            "url": "https://gitdl.cn/raw.githubusercontent.com/PizazzGY/TVBox_warehouse/main/live.txt",
+            "url": "https://github.ednovas.xyz/https://raw.githubusercontent.com/PizazzGY/TVBox_warehouse/main/live.txt",
             "playerType": 1,
-            "epg": "http://epg.112114.eu.org/?ch={name}&date={date}"
+            "epg": "http://epg.112114.xyz/?ch={name}&date={date}"
+        },
+        {
+            "name": "直播2",
+            "type": 0,
+            "url": "https://live.fanmingming.com/tv/m3u/ipv6.m3u",
+            "playerType": 1
+        },
+        {
+            "name": "直播3",
+            "type": 0,
+            "url": "https://tv.iill.top/m3u/Gather",
+            "playerType": 1
         }
     ],
     "flags": [

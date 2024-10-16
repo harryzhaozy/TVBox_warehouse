@@ -1,20 +1,17 @@
 {
-    "spider": "https://gitdl.cn/raw.githubusercontent.com/PizazzGY/TVBox_warehouse/main/spider.jar;md5;3843f962622e1fa261e6cd26ebbe2807",
+    "spider": "https://github.ednovas.xyz/https://raw.githubusercontent.com/PizazzGY/TVBox_warehouse/main/spider.jar;md5;5373bfbbb0b009366ffcc5cf6b4ead5d",
     "wallpaper": "https://api.likepoems.com/img/bing",
     "sites": [
         {
             "key": "兔小贝",
-            "name": "兔小贝",
+            "name": "兔小贝｜首页",
             "type": 3,
             "api": "./js/drpy2.min.js",
-            "ext": "./js/兔小贝.js",
-            "searchable": 0,
-            "quickSearch": 0,
-            "filterable": 0
+            "ext": "./js/兔小贝.js"
         },
         {
             "key": "配置中心",
-            "name": "配置中心",
+            "name": "配置｜中心",
             "type": 3,
             "api": "csp_Config",
             "searchable": 0,
@@ -23,192 +20,252 @@
             "style": {
                 "type": "rect",
                 "ratio": 1.597
-            },
-            "jar": "https://gitdl.cn/raw.githubusercontent.com/PizazzGY/TVBox_warehouse/main/danmu.jar;md5;ef899b3f9babf606e653cb735a70cfac"
+            }
+        },
+        {
+            "key": "贝乐虎",
+            "name": "贝乐虎｜儿童",
+            "type": 3,
+            "api": "./js/drpy2.min.js",
+            "ext": "./js/贝乐虎.js"
         },
         {
             "key": "儿童拼音",
-            "name": "哔哩｜儿童拼音",
+            "name": "儿童拼音｜哔哩",
             "type": 3,
             "api": "csp_Bili",
             "searchable": 0,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "./json/儿童拼音.json"
+            "ext": {
+                "cookie": "http://127.0.0.1:9978/file/TVBox/bilibili.txt",
+                "json": "./json/儿童拼音.json"
+            }
         },
         {
             "key": "儿童识字",
-            "name": "哔哩｜儿童识字",
+            "name": "儿童识字｜哔哩",
             "type": 3,
             "api": "csp_Bili",
             "searchable": 0,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "./json/儿童识字.json"
+            "ext": {
+                "cookie": "http://127.0.0.1:9978/file/TVBox/bilibili.txt",
+                "json": "./json/儿童识字.json"
+            }
         },
         {
             "key": "儿童英语",
-            "name": "哔哩｜儿童英语",
+            "name": "儿童英语｜哔哩",
             "type": 3,
             "api": "csp_Bili",
             "searchable": 0,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "./json/儿童英语.json"
+            "ext": {
+                "cookie": "http://127.0.0.1:9978/file/TVBox/bilibili.txt",
+                "json": "./json/儿童英语.json"
+            }
         },
         {
             "key": "儿童硬笔",
-            "name": "哔哩｜儿童硬笔",
+            "name": "儿童硬笔｜哔哩",
             "type": 3,
             "api": "csp_Bili",
             "searchable": 0,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "./json/儿童硬笔.json"
+            "ext": {
+                "cookie": "http://127.0.0.1:9978/file/TVBox/bilibili.txt",
+                "json": "./json/儿童硬笔.json"
+            }
         },
         {
             "key": "儿童思维",
-            "name": "哔哩｜儿童思维",
+            "name": "儿童思维｜哔哩",
             "type": 3,
             "api": "csp_Bili",
             "searchable": 0,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "./json/儿童思维.json"
+            "ext": {
+                "cookie": "http://127.0.0.1:9978/file/TVBox/bilibili.txt",
+                "json": "./json/儿童思维.json"
+            }
         },
         {
             "key": "儿童口才",
-            "name": "哔哩｜儿童口才",
+            "name": "儿童口才｜哔哩",
             "type": 3,
             "api": "csp_Bili",
             "searchable": 0,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "./json/儿童口才.json"
+            "ext": {
+                "cookie": "http://127.0.0.1:9978/file/TVBox/bilibili.txt",
+                "json": "./json/儿童口才.json"
+            }
         },
         {
             "key": "儿童编程",
-            "name": "哔哩｜儿童编程",
+            "name": "儿童编程｜哔哩",
             "type": 3,
             "api": "csp_Bili",
             "searchable": 0,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "./json/儿童编程.json"
+            "ext": {
+                "cookie": "http://127.0.0.1:9978/file/TVBox/bilibili.txt",
+                "json": "./json/儿童编程.json"
+            }
         },
         {
             "key": "儿童武术",
-            "name": "哔哩｜儿童武术",
+            "name": "儿童武术｜哔哩",
             "type": 3,
             "api": "csp_Bili",
             "searchable": 0,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "./json/儿童武术.json"
+            "ext": {
+                "cookie": "http://127.0.0.1:9978/file/TVBox/bilibili.txt",
+                "json": "./json/儿童武术.json"
+            }
         },
         {
             "key": "少儿教育",
-            "name": "哔哩｜少儿教育",
+            "name": "少儿教育｜哔哩",
             "type": 3,
             "api": "csp_Bili",
             "searchable": 0,
             "quickSearch": 0,
             "filterable": 1,
-            "ext": "./json/少儿教育.json"
+            "ext": {
+                "cookie": "http://127.0.0.1:9978/file/TVBox/bilibili.txt",
+                "json": "./json/少儿教育.json"
+            }
         },
         {
             "key": "小学课堂",
-            "name": "哔哩｜小学课堂",
+            "name": "小学课堂｜哔哩",
             "type": 3,
             "api": "csp_Bili",
             "searchable": 0,
             "quickSearch": 0,
             "filterable": 1,
-            "ext": "./json/小学课堂.json"
+            "ext": {
+                "cookie": "http://127.0.0.1:9978/file/TVBox/bilibili.txt",
+                "json": "./json/小学课堂.json"
+            }
         },
         {
             "key": "初中课堂",
-            "name": "哔哩｜初中课堂",
+            "name": "初中课堂｜哔哩",
             "type": 3,
             "api": "csp_Bili",
             "searchable": 0,
             "quickSearch": 0,
             "filterable": 1,
-            "ext": "./json/初中课堂.json"
+            "ext": {
+                "cookie": "http://127.0.0.1:9978/file/TVBox/bilibili.txt",
+                "json": "./json/初中课堂.json"
+            }
         },
         {
             "key": "高中教育",
-            "name": "哔哩｜高中课堂",
+            "name": "高中课堂｜哔哩",
             "type": 3,
             "api": "csp_Bili",
             "searchable": 0,
             "quickSearch": 0,
             "filterable": 1,
-            "ext": "./json/高中课堂.json"
+            "ext": {
+                "cookie": "http://127.0.0.1:9978/file/TVBox/bilibili.txt",
+                "json": "./json/高中课堂.json"
+            }
         },
         {
             "key": "外语课堂",
-            "name": "哔哩｜外语课堂",
+            "name": "外语课堂｜哔哩",
             "type": 3,
             "api": "csp_Bili",
             "searchable": 0,
             "quickSearch": 0,
             "filterable": 1,
-            "ext": "./json/外语课堂.json"
+            "ext": {
+                "cookie": "http://127.0.0.1:9978/file/TVBox/bilibili.txt",
+                "json": "./json/外语课堂.json"
+            }
         },
         {
             "key": "小灯塔百科",
-            "name": "哔哩｜小灯塔百科",
+            "name": "小灯塔百科｜哔哩",
             "type": 3,
             "api": "csp_Bili",
             "searchable": 0,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "./json/小灯塔百科.json"
+            "ext": {
+                "cookie": "http://127.0.0.1:9978/file/TVBox/bilibili.txt",
+                "json": "./json/小灯塔百科.json"
+            }
         },
         {
             "key": "小灯塔科学",
-            "name": "哔哩｜小灯塔科学",
+            "name": "小灯塔科学｜哔哩",
             "type": 3,
             "api": "csp_Bili",
             "searchable": 0,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "./json/小灯塔科学.json"
+            "ext": {
+                "cookie": "http://127.0.0.1:9978/file/TVBox/bilibili.txt",
+                "json": "./json/小灯塔科学.json"
+            }
         },
         {
             "key": "小灯塔地理",
-            "name": "哔哩｜小灯塔地理",
+            "name": "小灯塔地理｜哔哩",
             "type": 3,
             "api": "csp_Bili",
             "searchable": 0,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "./json/小灯塔地理.json"
+            "ext": {
+                "cookie": "http://127.0.0.1:9978/file/TVBox/bilibili.txt",
+                "json": "./json/小灯塔地理.json"
+            }
         },
         {
             "key": "小灯塔国学",
-            "name": "哔哩｜小灯塔国学",
+            "name": "小灯塔国学｜哔哩",
             "type": 3,
             "api": "csp_Bili",
             "searchable": 0,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "./json/小灯塔国学.json"
+            "ext": {
+                "cookie": "http://127.0.0.1:9978/file/TVBox/bilibili.txt",
+                "json": "./json/小灯塔国学.json"
+            }
         },
         {
             "key": "小灯塔人文",
-            "name": "哔哩｜小灯塔人文",
+            "name": "小灯塔人文｜哔哩",
             "type": 3,
             "api": "csp_Bili",
             "searchable": 0,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "./json/小灯塔人文.json"
+            "ext": {
+                "cookie": "http://127.0.0.1:9978/file/TVBox/bilibili.txt",
+                "json": "./json/小灯塔人文.json"
+            }
         },
         {
             "key": "push_agent",
-            "name": "推送",
+            "name": "手机｜推送",
             "type": 3,
             "api": "csp_Push",
             "searchable": 0,
@@ -217,9 +274,9 @@
             "ext": {
                 "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
                 "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
-                "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt"
-            },
-            "jar": "https://gitdl.cn/raw.githubusercontent.com/PizazzGY/TVBox_warehouse/main/danmu.jar;md5;ef899b3f9babf606e653cb735a70cfac"
+                "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
+                "danmu": true
+            }
         }
     ],
     "doh": [
@@ -268,11 +325,23 @@
     ],
     "lives": [
         {
-            "name": "live",
+            "name": "直播1",
             "type": 0,
-            "url": "https://gitdl.cn/raw.githubusercontent.com/PizazzGY/TVBox_warehouse/main/live.txt",
+            "url": "https://github.ednovas.xyz/https://raw.githubusercontent.com/PizazzGY/TVBox_warehouse/main/live.txt",
             "playerType": 1,
-            "epg": "http://epg.112114.eu.org/?ch={name}&date={date}"
+            "epg": "http://epg.112114.xyz/?ch={name}&date={date}"
+        },
+        {
+            "name": "直播2",
+            "type": 0,
+            "url": "https://live.fanmingming.com/tv/m3u/ipv6.m3u",
+            "playerType": 1
+        },
+        {
+            "name": "直播3",
+            "type": 0,
+            "url": "https://tv.iill.top/m3u/Gather",
+            "playerType": 1
         }
     ],
     "ijk": [
